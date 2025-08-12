@@ -2,7 +2,7 @@ import { Redirect } from "expo-router"
 
 const index = () => {
 
-  return <Redirect href="/home" />
+  return <Redirect href="/(stack)/home" />
 
 
 // Basic navigation code:
