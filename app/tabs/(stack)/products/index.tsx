@@ -4,7 +4,7 @@ import { FlatList, Text, View } from 'react-native';
 
 const productsScreen = () => {
   return (
-    <View className='flex flex-1'>
+    <View className='flex flex-1 px-5'>
       <FlatList 
       data={products}
       keyExtractor={ (item)=> item.id}
@@ -16,7 +16,7 @@ const productsScreen = () => {
 
           <View className='flex flex-row justify-between mt-2'>
             <Text className='font-work-black'>{ item.price }</Text>
-            <Link href={`/(stack)/products/${item.id}`} className='text-primary'>Ver detalles</Link>
+            <Link href={`/tabs/(stack)/products/${item.id}`} className='text-primary'>Ver detalles</Link>
           </View>
         </View>
 

@@ -9,7 +9,7 @@ const StackLayout = () => {
                 backgroundColor: "#FAFAFA"
             }
         }
-        }
+}
     >
         <Stack.Screen
             name="home/index"
